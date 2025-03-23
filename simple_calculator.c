@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
-void calculator(int num_1, int num_2)
+void calculator(int num_1, int num_2) // definition of the function
 {
     int n, result;
 
@@ -53,7 +53,7 @@ void calculator(int num_1, int num_2)
         else if (n == 6) // powering
         {
             int power = pow(num_1, num_2);
-            printf("\t   result of operation is : %d\n", power);
+            printf("\t\t\tresult of operation is : %d\n", power);
         }
         else if (n == 7)
         {
@@ -67,6 +67,6 @@ int main()
 {
     int a, b, result;
     printf("welcome to the world of cacluations :\n ");
-    calculator(a, b);
+    calculator(a, b); // called function.
     return 0;
 }
